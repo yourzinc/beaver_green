@@ -1,6 +1,7 @@
 /* screen - 1 */
 
 .x1 {
+  top: 70px;
   background-color: var(--mine-shaft);
   height: 576px;
   overflow: hidden;
@@ -150,12 +151,13 @@
 .x1 .button1_text {
   background-color: transparent;
   bottom: calc(50% - 37px);
-  height: 73px;
-  left: calc(50% - 88px);
+  height: 90px;
+  left: calc(50% - 105px);
   position: absolute;
-  width: 176px;
+  width: 210px;
 }
 /* 73 - 176 */
+/* 361 - 155  = 2.33 */
 
 .x1 .b1-t-1 {
   background-color: transparent;
@@ -245,11 +247,12 @@
 .x1 .button2_text {
   background-color: transparent;
   bottom: calc(50% - 37px);
-  height: 73px;
+  height: 90px;
   position: absolute;
   left: calc(50% - 88px);
   width: 176px;
 }
+/* 96 - 49  = 1.96 */
 
 .x1 .b2-t-1 {
   background-color: transparent;
@@ -335,13 +338,13 @@
 
 .x1 .button3_text {
   background-color: transparent;
-  height: 73px;
+  height: 90px;
   position: absolute;
-  left: calc(50% - 88px);
+  left: calc(50% - 95px);
   bottom: calc(50% - 37px);
-  width: 176px;
+  width: 193px;
 }
-
+/* 15 : 7 = 2.14 */
 .x1 .b3-t-1 {
   background-color: transparent;
   height: calc(100.00% + 4px);
