@@ -1,0 +1,373 @@
+/* screen - 1 */
+
+.x1 {
+  background-color: var(--mine-shaft);
+  height: 576px;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+}
+
+/*--------------------------------이것은 언제일까요-------------------------------*/
+.x1 .a1 {
+  background-color: transparent;
+  height: 576px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+
+.x1 .aa1 {
+  background-color: var(--mine-shaft);
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.x1 .bb1 {
+  background-color: transparent;
+  height: 63px;
+  left: calc(49.72% - 238px);
+  opacity: 0.75;
+  position: absolute;
+  top: 65px;
+  width: 479px;
+}
+
+.x1 .t1 {
+  background-color: transparent;
+  color: var(--chicago);
+  /*filter: blur(2px);*/
+  font-family: var(--font-family-nanum_gothic);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 800;
+  height: calc(100.00% - 1px);
+  left: 3px;
+  letter-spacing: 4.68px;
+  line-height: 80px;
+  position: absolute;
+  text-align: center;
+  top: -7px;
+  white-space: nowrap;
+  width: calc(100.00% - 1px);
+}
+
+.x1 .t2 {
+  background-color: transparent;
+  color: var(--black);
+  /*filter: blur(2px);*/
+  font-family: var(--font-family-nanum_gothic);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 800;
+  height: calc(100.00% - 1px);
+  left: 0px;
+  letter-spacing: 4.68px;
+  line-height: 80px;
+  position: absolute;
+  text-align: center;
+  top: -10px;
+  white-space: nowrap;
+  width: calc(100.00% - 3px);
+}
+
+.x1 .t3 {
+  background-color: transparent;
+  filter: blur(1px);;
+  height: calc(100.00% - 1px);
+  left: 2px;
+  letter-spacing: 4.68px;
+  line-height: 80px;
+  position: absolute;
+  text-align: center;
+  top: -9px;
+  white-space: nowrap;
+  width: calc(100.00% - 3px);
+}
+
+/*---BUTTON -1 ---------------------------------------------------------------*/
+.x1 .button1 {
+  background-color: transparent;
+  bottom: 70px;
+  /* calc(34.39% - 57px) */
+  height: 200px;
+  position: absolute;
+  right: calc(50% - 190px);
+  width: 376px;
+  
+}
+
+.x1 .button1_background {
+  background-color: transparent;
+  height: 100%;
+  left: 1px;
+  position: absolute;
+  top: 1px;
+  width: 100%;
+  
+}
+
+.x1 .b1-bg1-1 {
+  background-color: var(--black);
+  border-radius: 150px;
+  filter: blur(29.7632999420166px);;
+  height: calc(100.00% - 19px);
+  left: 20px;
+  position: absolute;
+  top: 19px;
+  width: calc(100.00% - 20px);
+}
+
+.x1 .b1-bg1-2 {
+  background-color: var(--storm-dust);
+  border-radius: 150px;
+  filter: blur(30.085399627685547px);;
+  height: calc(100.00% - 19px);
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: calc(100.00% - 20px);
+}
+
+.x1 .b1-bg1-3 {
+  background-color: var(--mine-shaft);
+  border-radius: 151px;
+  filter: blur(5px);;
+  height: calc(100.00% - 18px);
+  left: 10px;
+  position: absolute;
+  top: 9px;
+  width: calc(100.00% - 21px);
+/*  width: calc(100.00% - 21px); */
+
+}
+
+.x1 .button1_text {
+  background-color: transparent;
+  bottom: calc(50% - 37px);
+  height: 73px;
+  left: calc(50% - 88px);
+  position: absolute;
+  width: 176px;
+}
+/* 73 - 176 */
+
+.x1 .b1-t-1 {
+  background-color: transparent;
+  height: calc(100.00% + 4px);
+  left: -3px;
+  object-fit: cover;
+  position: absolute;
+  top: -3px;
+  width: calc(100.00% + 4px);
+}
+
+.x1 .b1-t-2 {
+  background-color: transparent;
+  height: calc(100.00% + 4px);
+  left: -1px;
+  object-fit: cover;
+  position: absolute;
+  top: -1px;
+  width: calc(100.00% + 4px);
+}
+
+.x1 .b1-t-3 {
+  background-color: transparent;
+  height: calc(100.00% + 4px);
+  left: -2px;
+  object-fit: cover;
+  position: absolute;
+  top: -2px;
+  width: calc(100.00% + 4px);
+}
+
+/* 167 - 314 */
+/* 200 - 376 */
+
+/*---BUTTON -2 ---------------------------------------------------------------*/
+.x1 .button2 {
+  background-color: transparent;
+  bottom: 70px;
+  height: 200px; 
+  position: absolute;
+  right: 100px;
+  width: 376px;
+}
+
+.x1 .button2_background {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.x1 .b2-bg1-1 {
+  background-color: var(--black);
+  border-radius: 150px;
+  filter: blur(29.7632999420166px);;
+  height: calc(100.00% - 21px);
+  left: 21px;
+  position: absolute;
+  top: 21px;
+  width: calc(100.00% - 21px);
+}
+
+.x1 .b2-bg1-2 {
+  background-color: var(--storm-dust);
+  border-radius: 150px;
+  filter: blur(30.085399627685547px);;
+  height: calc(100.00% - 21px);
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: calc(100.00% - 21px);
+}
+
+.x1 .b2-bg1-3 {
+  background-color: var(--mine-shaft);
+  border-radius: 151px;
+  filter: blur(5px);;
+  height: calc(100.00% - 21px);
+  left: 11px;
+  position: absolute;
+  top: 11px;
+  width: calc(100.00% - 22px);
+}
+
+.x1 .button2_text {
+  background-color: transparent;
+  bottom: calc(50% - 37px);
+  height: 73px;
+  position: absolute;
+  left: calc(50% - 88px);
+  width: 176px;
+}
+
+.x1 .b2-t-1 {
+  background-color: transparent;
+  height: calc(100.00% + 4px);
+  left: -1px;
+  object-fit: cover;
+  position: absolute;
+  top: -1px;
+  width: calc(100.00% + 4px);
+}
+
+.x1 .b2-t-2 {
+  background-color: transparent;
+  height: calc(100.00% + 4px);
+  left: -3px;
+  object-fit: cover;
+  position: absolute;
+  top: -3px;
+  width: calc(100.00% + 4px);
+}
+
+.x1 .b2-t-3 {
+  background-color: transparent;
+  height: calc(100.00% + 4px);
+  left: -2px;
+  object-fit: cover;
+  position: absolute;
+  top: -2px;
+  width: calc(100.00% + 4px);
+}
+
+/*---BUTTON -3 ---------------------------------------------------------------*/
+.x1 .button3 {
+  background-color: transparent;
+  bottom: 70px;
+  height: 200px;
+  left: 100px;
+  position: absolute;
+  width: 376px;
+}
+
+.x1 .button3_background {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.x1 .b3-bg1-1 {
+  background-color: var(--black);
+  border-radius: 150px;
+  filter: blur(29.7632999420166px);;
+  height: calc(100.00% - 21px);
+  left: 21px;
+  position: absolute;
+  top: 21px;
+  width: calc(100.00% - 21px);
+}
+
+.x1 .b3-bg1-2 {
+  background-color: var(--storm-dust);
+  border-radius: 150px;
+  filter: blur(30.085399627685547px);;
+  height: calc(100.00% - 21px);
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: calc(100.00% - 21px);
+}
+
+.x1 .b3-bg1-3 {
+  background-color: var(--mine-shaft);
+  border-radius: 151px;
+  filter: blur(5px);;
+  height: calc(100.00% - 21px);
+  left: 11px;
+  position: absolute;
+  top: 11px;
+  width: calc(100.00% - 22px);
+}
+
+.x1 .button3_text {
+  background-color: transparent;
+  height: 73px;
+  position: absolute;
+  left: calc(50% - 88px);
+  bottom: calc(50% - 37px);
+  width: 176px;
+}
+
+.x1 .b3-t-1 {
+  background-color: transparent;
+  height: calc(100.00% + 4px);
+  left: -1px;
+  object-fit: cover;
+  position: absolute;
+  top: -1px;
+  width: calc(100.00% + 4px);
+}
+
+.x1 .b3-t-2 {
+  background-color: transparent;
+  height: calc(100.00% + 4px);
+  left: -3px;
+  object-fit: cover;
+  position: absolute;
+  top: -3px;
+  width: calc(100.00% + 4px);
+}
+
+.x1 .b3-t-3 {
+  background-color: transparent;
+  height: calc(100.00% + 4px);
+  left: -2px;
+  object-fit: cover;
+  position: absolute;
+  top: -2px;
+  width: calc(100.00% + 4px);
+}

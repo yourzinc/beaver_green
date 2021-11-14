@@ -1,0 +1,442 @@
+/* screen - 3 */
+
+.x3 {
+  background-color: var(--mine-shaft);
+  height: 576px;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 1024px;
+}
+
+.x3 .x3897-ycAUpX {
+  background-color: transparent;
+  height: 576px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 1024px;
+}
+
+.x3 .x3885-ODdDuU {
+  background-color: transparent;
+  height: 63px;
+  left: calc(49.72% - 238px);
+  opacity: 0.75;
+  position: absolute;
+  top: 65px;
+  width: 479px;
+}
+
+.x3 .x-UA4Uq4 {
+  background-color: transparent;
+  color: var(--chicago);
+  filter: blur(2px);;
+  font-family: var(--font-family-nanum_gothic);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 800;
+  height: calc(100.00% - 1px);
+  left: 3px;
+  letter-spacing: 4.68px;
+  line-height: 80px;
+  position: absolute;
+  text-align: center;
+  top: -7px;
+  white-space: nowrap;
+  width: calc(100.00% - 1px);
+}
+
+.x3 .x-MHE6zg {
+  background-color: transparent;
+  color: var(--black);
+  filter: blur(2px);;
+  font-family: var(--font-family-nanum_gothic);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 800;
+  height: calc(100.00% - 1px);
+  left: 0px;
+  letter-spacing: 4.68px;
+  line-height: 80px;
+  position: absolute;
+  text-align: center;
+  top: -10px;
+  white-space: nowrap;
+  width: calc(100.00% - 3px);
+}
+
+.x3 .x-0cNyKW {
+  background-color: transparent;
+  filter: blur(2px);;
+  height: calc(100.00% - 1px);
+  left: 2px;
+  letter-spacing: 4.68px;
+  line-height: 80px;
+  position: absolute;
+  text-align: center;
+  top: -9px;
+  white-space: nowrap;
+  width: calc(100.00% - 3px);
+}
+
+.x3 .x3884-ODdDuU {
+  background-color: transparent;
+  bottom: calc(34.39% - 57px);
+  height: 166px;
+  position: absolute;
+  right: calc(50.00% - 157px);
+  width: 314px;
+}
+
+.x3 .x3881-3yjOxl {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.x3 .x20-8lcdc2 {
+  background-color: var(--black);
+  border-radius: 150px;
+  filter: blur(29.7632999420166px);;
+  height: calc(100.00% - 19px);
+  left: 19px;
+  position: absolute;
+  top: 19px;
+  width: calc(100.00% - 19px);
+}
+
+.x3 .x21-8lcdc2 {
+  background-color: var(--storm-dust);
+  border-radius: 150px;
+  filter: blur(30.085399627685547px);;
+  height: calc(100.00% - 19px);
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: calc(100.00% - 19px);
+}
+
+.x3 .x22-8lcdc2 {
+  background-color: var(--mine-shaft);
+  border-radius: 151px;
+  filter: blur(5px);;
+  height: calc(100.00% - 18px);
+  left: 10px;
+  position: absolute;
+  top: 9px;
+  width: calc(100.00% - 20px);
+}
+
+.x3 .x3880-3yjOxl {
+  background-color: transparent;
+  height: 73px;
+  position: absolute;
+  right: calc(49.83% - 88px);
+  top: calc(49.96% - 37px);
+  width: 176px;
+}
+
+.x3 .x4-xVTpUB {
+  background-color: transparent;
+  height: calc(100.00% + 4px);
+  left: -3px;
+  object-fit: cover;
+  position: absolute;
+  top: -3px;
+  width: calc(100.00% + 4px);
+}
+
+.x3 .x5-xVTpUB {
+  background-color: transparent;
+  height: calc(100.00% + 4px);
+  left: -1px;
+  object-fit: cover;
+  position: absolute;
+  top: -1px;
+  width: calc(100.00% + 4px);
+}
+
+.x3 .x6-xVTpUB {
+  background-color: transparent;
+  height: calc(100.00% + 4px);
+  left: -2px;
+  object-fit: cover;
+  position: absolute;
+  top: -2px;
+  width: calc(100.00% + 4px);
+}
+
+.x3 .x3882-ODdDuU {
+  background-color: transparent;
+  bottom: calc(34.32% - 57px);
+  height: 167px;
+  position: absolute;
+  right: 12px;
+  width: 314px;
+}
+
+.x3 .x3878-YK3fuu {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+
+.x3 .x3877-r0UoeP {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.x3 .x20-hiBQZz {
+  background-color: var(--black);
+  border-radius: 150px;
+  filter: blur(29.7632999420166px);;
+  height: calc(100.00% - 21px);
+  left: 21px;
+  position: absolute;
+  top: 21px;
+  width: calc(100.00% - 21px);
+}
+
+.x3 .x21-hiBQZz {
+  background-color: var(--storm-dust);
+  border-radius: 150px;
+  filter: blur(30.085399627685547px);;
+  height: calc(100.00% - 21px);
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: calc(100.00% - 21px);
+}
+
+.x3 .x22-hiBQZz {
+  background-color: var(--mine-shaft);
+  border-radius: 151px;
+  filter: blur(5px);;
+  height: calc(100.00% - 21px);
+  left: 11px;
+  position: absolute;
+  top: 11px;
+  width: calc(100.00% - 22px);
+}
+
+.x3 .x3866-r0UoeP {
+  background-color: transparent;
+  bottom: calc(49.90% - 35px);
+  height: 70px;
+  position: absolute;
+  right: calc(49.90% - 70px);
+  width: 140px;
+}
+
+.x3 .x8-txE9Xe {
+  background-color: transparent;
+  height: calc(100.00% + 4px);
+  left: -1px;
+  object-fit: cover;
+  position: absolute;
+  top: -1px;
+  width: calc(100.00% + 4px);
+}
+
+.x3 .x7-txE9Xe {
+  background-color: transparent;
+  height: calc(100.00% + 4px);
+  left: -3px;
+  object-fit: cover;
+  position: absolute;
+  top: -3px;
+  width: calc(100.00% + 4px);
+}
+
+.x3 .x9-txE9Xe {
+  background-color: transparent;
+  height: calc(100.00% + 4px);
+  left: -2px;
+  object-fit: cover;
+  position: absolute;
+  top: -2px;
+  width: calc(100.00% + 4px);
+}
+
+.x3 .x3883-ODdDuU {
+  background-color: transparent;
+  bottom: calc(34.32% - 57px);
+  height: 167px;
+  left: 12px;
+  position: absolute;
+  width: 314px;
+}
+
+.x3 .x3875-tRWx7q {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.x3 .x20-x5xLRx {
+  background-color: var(--black);
+  border-radius: 150px;
+  filter: blur(29.7632999420166px);;
+  height: calc(100.00% - 21px);
+  left: 21px;
+  position: absolute;
+  top: 21px;
+  width: calc(100.00% - 21px);
+}
+
+.x3 .x21-x5xLRx {
+  background-color: var(--storm-dust);
+  border-radius: 150px;
+  filter: blur(30.085399627685547px);;
+  height: calc(100.00% - 21px);
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: calc(100.00% - 21px);
+}
+
+.x3 .x22-x5xLRx {
+  background-color: var(--mine-shaft);
+  border-radius: 151px;
+  filter: blur(5px);;
+  height: calc(100.00% - 21px);
+  left: 11px;
+  position: absolute;
+  top: 11px;
+  width: calc(100.00% - 22px);
+}
+
+.x3 .x3879-tRWx7q {
+  background-color: transparent;
+  height: 80px;
+  position: absolute;
+  right: calc(49.95% - 88px);
+  top: calc(49.96% - 40px);
+  width: 176px;
+}
+
+.x3 .x14-D0kzWY {
+  background-color: transparent;
+  height: calc(100.00% + 4px);
+  left: -1px;
+  object-fit: cover;
+  position: absolute;
+  top: -1px;
+  width: calc(100.00% + 4px);
+}
+
+.x3 .x13-D0kzWY {
+  background-color: transparent;
+  height: calc(100.00% + 4px);
+  left: -3px;
+  object-fit: cover;
+  position: absolute;
+  top: -3px;
+  width: calc(100.00% + 4px);
+}
+
+.x3 .x3-D0kzWY {
+  background-color: transparent;
+  height: calc(100.00% + 4px);
+  left: -2px;
+  object-fit: cover;
+  position: absolute;
+  top: -2px;
+  width: calc(100.00% + 4px);
+}
+
+.x3 .x23-ODdDuU {
+  background-color: var(--black);
+  height: 100%;
+  left: 0px;
+  opacity: 0.45;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.x3 .x3894-ODdDuU {
+  background-color: transparent;
+  bottom: 62px;
+  height: 323px;
+  position: absolute;
+  right: calc(49.90% - 326px);
+  width: 653px;
+}
+
+.x3 .x26-stSJxq {
+  background-color: var(--storm-dust);
+  border-radius: 303px;
+  filter: blur(10.0024995803833px);;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.x3 .x3893-stSJxq {
+  background-color: transparent;
+  height: 220px;
+  position: absolute;
+  right: calc(49.82% - 222px);
+  top: calc(49.49% - 109px);
+  width: 445px;
+}
+
+.x3 .x18-jhbvKA {
+  background-color: transparent;
+  height: calc(100.00% - 2px);
+  left: 1px;
+  object-fit: cover;
+  position: absolute;
+  top: 5px;
+  width: calc(100.00% + 3px);
+}
+
+.x3 .x19-jhbvKA {
+  background-color: transparent;
+  height: calc(100.00% - 2px);
+  left: -2px;
+  object-fit: cover;
+  position: absolute;
+  top: 2px;
+  width: calc(100.00% + 3px);
+}
+
+.x3 .x3889-jhbvKA {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: calc(100.00% - 1px);
+}
+
+.x3 .textlabel-vzaVia {
+  background-color: transparent;
+  filter: blur(0.9641090035438538px);;
+  height: calc(100.00% + 2px);
+  left: 0px;
+  letter-spacing: 4.68px;
+  line-height: 80px;
+  position: absolute;
+  text-align: center;
+  top: -10px;
+  white-space: nowrap;
+  width: calc(100.00% + 2px);
+}

@@ -1,0 +1,434 @@
+/* screen - 2 */
+
+.x2 {
+  background-color: var(--mine-shaft);
+  height: 576px;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 1024px;
+}
+
+.x2 .x3896-580WVZ {
+  background-color: transparent;
+  height: 576px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 1024px;
+}
+
+.x2 .x3885-xCRx9c {
+  background-color: transparent;
+  height: 63px;
+  left: calc(49.01% - 231px);
+  opacity: 0.75;
+  position: absolute;
+  top: 64px;
+  width: 471px;
+}
+
+.x2 .x-5KWaSf {
+  background-color: transparent;
+  color: var(--chicago);
+  filter: blur(2px);;
+  font-family: var(--font-family-nanum_gothic);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 800;
+  height: calc(100.00% - 2px);
+  left: 3px;
+  letter-spacing: 4.59px;
+  line-height: 79px;
+  position: absolute;
+  text-align: center;
+  top: -6px;
+  white-space: nowrap;
+  width: calc(100.00% - 1px);
+}
+
+.x2 .x-zsGnxV {
+  background-color: transparent;
+  color: var(--black);
+  filter: blur(2px);;
+  font-family: var(--font-family-nanum_gothic);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 800;
+  height: calc(100.00% - 2px);
+  left: 0px;
+  letter-spacing: 4.59px;
+  line-height: 79px;
+  position: absolute;
+  text-align: center;
+  top: -10px;
+  white-space: nowrap;
+  width: calc(100.00% - 3px);
+}
+
+.x2 .x-TDnEbJ {
+  background-color: transparent;
+  color: var(--green);
+  filter: blur(2px);;
+  font-family: var(--font-family-nanum_gothic);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 800;
+  height: calc(100.00% - 2px);
+  left: 1px;
+  letter-spacing: 4.59px;
+  line-height: 79px;
+  position: absolute;
+  text-align: center;
+  top: -8px;
+  white-space: nowrap;
+  width: calc(100.00% - 3px);
+}
+
+.x2 .x3884-xCRx9c {
+  background-color: transparent;
+  bottom: calc(34.39% - 57px);
+  height: 166px;
+  position: absolute;
+  right: calc(49.86% - 157px);
+  width: 314px;
+}
+
+.x2 .x3881-Ywv53m {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.x2 .x20-yxxiRW {
+  background-color: var(--black);
+  border-radius: 150px;
+  filter: blur(29.7632999420166px);;
+  height: calc(100.00% - 19px);
+  left: 19px;
+  position: absolute;
+  top: 19px;
+  width: calc(100.00% - 19px);
+}
+
+.x2 .x21-yxxiRW {
+  background-color: var(--storm-dust);
+  border-radius: 150px;
+  filter: blur(30.085399627685547px);;
+  height: calc(100.00% - 19px);
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: calc(100.00% - 19px);
+}
+
+.x2 .x22-yxxiRW {
+  background-color: var(--mine-shaft);
+  border-radius: 151px;
+  filter: blur(5px);;
+  height: calc(100.00% - 19px);
+  left: 9px;
+  position: absolute;
+  top: 10px;
+  width: calc(100.00% - 19px);
+}
+
+.x2 .x3880-Ywv53m {
+  background-color: transparent;
+  bottom: calc(49.87% - 37px);
+  height: 73px;
+  left: calc(49.61% - 87px);
+  position: absolute;
+  width: 176px;
+}
+
+.x2 .x4-3g864j {
+  background-color: transparent;
+  height: calc(100.00% + 4px);
+  left: -3px;
+  object-fit: cover;
+  position: absolute;
+  top: -3px;
+  width: calc(100.00% + 4px);
+}
+
+.x2 .x5-3g864j {
+  background-color: transparent;
+  height: calc(100.00% + 4px);
+  left: -1px;
+  object-fit: cover;
+  position: absolute;
+  top: -1px;
+  width: calc(100.00% + 4px);
+}
+
+.x2 .x6-3g864j {
+  background-color: transparent;
+  height: calc(100.00% + 4px);
+  left: -2px;
+  object-fit: cover;
+  position: absolute;
+  top: -2px;
+  width: calc(100.00% + 4px);
+}
+
+.x2 .x3882-xCRx9c {
+  background-color: transparent;
+  bottom: calc(34.28% - 57px);
+  height: 167px;
+  position: absolute;
+  right: 11px;
+  width: 314px;
+}
+
+.x2 .x3878-Wb5zzW {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 1px;
+  width: 100%;
+}
+
+.x2 .x3877-Iu4jVN {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.x2 .x20-jpGJPx {
+  background-color: var(--black);
+  border-radius: 150px;
+  filter: blur(29.7632999420166px);;
+  height: calc(100.00% - 21px);
+  left: 21px;
+  position: absolute;
+  top: 21px;
+  width: calc(100.00% - 21px);
+}
+
+.x2 .x21-jpGJPx {
+  background-color: var(--storm-dust);
+  border-radius: 150px;
+  filter: blur(30.085399627685547px);;
+  height: calc(100.00% - 21px);
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: calc(100.00% - 21px);
+}
+
+.x2 .x22-jpGJPx {
+  background-color: var(--mine-shaft);
+  border-radius: 151px;
+  filter: blur(5px);;
+  height: calc(100.00% - 21px);
+  left: 11px;
+  position: absolute;
+  top: 11px;
+  width: calc(100.00% - 22px);
+}
+
+.x2 .x3866-Iu4jVN {
+  background-color: transparent;
+  bottom: calc(49.90% - 35px);
+  height: 70px;
+  position: absolute;
+  right: calc(49.90% - 70px);
+  width: 140px;
+}
+
+.x2 .x8-OpggTe {
+  background-color: transparent;
+  height: calc(100.00% + 4px);
+  left: -1px;
+  object-fit: cover;
+  position: absolute;
+  top: -1px;
+  width: calc(100.00% + 4px);
+}
+
+.x2 .x7-OpggTe {
+  background-color: transparent;
+  height: calc(100.00% + 4px);
+  left: -3px;
+  object-fit: cover;
+  position: absolute;
+  top: -3px;
+  width: calc(100.00% + 4px);
+}
+
+.x2 .x9-OpggTe {
+  background-color: transparent;
+  height: calc(100.00% + 4px);
+  left: -2px;
+  object-fit: cover;
+  position: absolute;
+  top: -2px;
+  width: calc(100.00% + 4px);
+}
+
+.x2 .x3883-xCRx9c {
+  background-color: transparent;
+  bottom: calc(34.28% - 57px);
+  height: 167px;
+  left: 12px;
+  position: absolute;
+  width: 314px;
+}
+
+.x2 .x3875-x5Zn9A {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.x2 .x20-3u1wXf {
+  background-color: var(--black);
+  border-radius: 150px;
+  filter: blur(29.7632999420166px);;
+  height: calc(100.00% - 21px);
+  left: 21px;
+  position: absolute;
+  top: 21px;
+  width: calc(100.00% - 21px);
+}
+
+.x2 .x21-3u1wXf {
+  background-color: var(--storm-dust);
+  border-radius: 150px;
+  filter: blur(30.085399627685547px);;
+  height: calc(100.00% - 21px);
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: calc(100.00% - 21px);
+}
+
+.x2 .x22-3u1wXf {
+  background-color: var(--mine-shaft);
+  border-radius: 151px;
+  filter: blur(5px);;
+  height: calc(100.00% - 21px);
+  left: 11px;
+  position: absolute;
+  top: 11px;
+  width: calc(100.00% - 22px);
+}
+
+.x2 .x3879-x5Zn9A {
+  background-color: transparent;
+  height: 80px;
+  position: absolute;
+  right: calc(49.95% - 88px);
+  top: calc(49.96% - 40px);
+  width: 176px;
+}
+
+.x2 .x14-E4jPhG {
+  background-color: transparent;
+  height: calc(100.00% + 4px);
+  left: -1px;
+  object-fit: cover;
+  position: absolute;
+  top: -1px;
+  width: calc(100.00% + 4px);
+}
+
+.x2 .x13-E4jPhG {
+  background-color: transparent;
+  height: calc(100.00% + 4px);
+  left: -3px;
+  object-fit: cover;
+  position: absolute;
+  top: -3px;
+  width: calc(100.00% + 4px);
+}
+
+.x2 .x3-E4jPhG {
+  background-color: transparent;
+  height: calc(100.00% + 4px);
+  left: -2px;
+  object-fit: cover;
+  position: absolute;
+  top: -2px;
+  width: calc(100.00% + 4px);
+}
+
+.x2 .x23-xCRx9c {
+  background-color: var(--black);
+  height: 100%;
+  left: 0px;
+  opacity: 0.45;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.x2 .x3892-xCRx9c {
+  background-color: transparent;
+  bottom: 62px;
+  height: 324px;
+  position: absolute;
+  right: calc(49.84% - 326px);
+  width: 654px;
+}
+
+.x2 .x27-aANSnH {
+  background-color: var(--storm-dust);
+  border-radius: 303px;
+  filter: blur(10.0024995803833px);;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.x2 .x3891-aANSnH {
+  background-color: transparent;
+  bottom: calc(49.48% - 26px);
+  height: 53px;
+  position: absolute;
+  right: calc(49.56% - 103px);
+  width: 208px;
+}
+
+.x2 .x15-zjNVLx {
+  background-color: transparent;
+  height: calc(100.00% + 3px);
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: calc(100.00% + 3px);
+}
+
+.x2 .x16-zjNVLx {
+  background-color: transparent;
+  height: calc(100.00% + 3px);
+  left: -3px;
+  object-fit: cover;
+  position: absolute;
+  top: -3px;
+  width: calc(100.00% + 3px);
+}
+
+.x2 .x17-zjNVLx {
+  background-color: transparent;
+  height: calc(100.00% + 3px);
+  left: -1px;
+  object-fit: cover;
+  position: absolute;
+  top: -1px;
+  width: calc(100.00% + 3px);
+}
