@@ -374,3 +374,135 @@
   top: -2px;
   width: calc(100.00% + 4px);
 }
+
+/* POPUP - RIGHT */
+.x1 #pop1{
+  background-color: transparent;
+  bottom: 50px;
+  height: 324px;
+  position: absolute;
+  right: calc(49.84% - 326px);
+  width: 654px;
+}
+.x1 .popup {
+  background-color: var(--storm-dust);
+  border-radius: 303px;
+  filter: blur(10.0024995803833px);;
+  height: 100%;
+  left: 0%;
+  position: absolute;
+  top: 0%;
+  width: 100%;
+}
+
+.x1 .popup-text {
+  background-color: transparent;
+  bottom: calc(49.48% - 26px);
+  height: 53px;
+  position: absolute;
+  right: calc(49.56% - 103px);
+  width: 208px;
+}
+
+.x1 .p1-t-1 {
+  background-color: transparent;
+  height: calc(100.00% + 3px);
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: calc(100.00% + 3px);
+}
+
+.x1 .p1-t-2 {
+  background-color: transparent;
+  height: calc(100.00% + 3px);
+  left: -3px;
+  object-fit: cover;
+  position: absolute;
+  top: -3px;
+  width: calc(100.00% + 3px);
+}
+
+.x1 .p1-t-3 {
+  background-color: transparent;
+  height: calc(100.00% + 3px);
+  left: -1px;
+  object-fit: cover;
+  position: absolute;
+  top: -1px;
+  width: calc(100.00% + 3px);
+}
+
+/* POPUP _ WRONG */
+.x1 #pop2 {
+  background-color: transparent;
+  bottom: 62px;
+  height: 323px;
+  position: absolute;
+  right: calc(49.90% - 326px);
+  width: 653px;
+}
+
+.x1 .popup2 {
+  background-color: var(--storm-dust);
+  border-radius: 303px;
+  filter: blur(10.0024995803833px);;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.x1 .popup-text2 {
+  background-color: transparent;
+  height: 220px;
+  position: absolute;
+  right: calc(49.82% - 222px);
+  top: calc(49.49% - 109px);
+  width: 445px;
+}
+
+.x1 .p2-t-1 {
+  background-color: transparent;
+  height: calc(100.00% - 2px);
+  left: 1px;
+  object-fit: cover;
+  position: absolute;
+  top: 5px;
+  width: calc(100.00% + 3px);
+}
+
+.x1 .p2-t-2 {
+  background-color: transparent;
+  height: calc(100.00% - 2px);
+  left: -2px;
+  object-fit: cover;
+  position: absolute;
+  top: 2px;
+  width: calc(100.00% + 3px);
+}
+
+.x1 .p2-t-3 {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: calc(100.00% - 1px);
+}
+
+.x1 .p2-t-4 {
+  background-color: transparent;
+  filter: blur(0.9641090035438538px);;
+  height: calc(100.00% + 2px);
+  left: 0px;
+  letter-spacing: 4.68px;
+  line-height: 80px;
+  position: absolute;
+  text-align: center;
+  top: -10px;
+  white-space: nowrap;
+  width: calc(100.00% + 2px);
+}
