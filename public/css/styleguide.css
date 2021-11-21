@@ -1,0 +1,19 @@
+:root { 
+  --black: #000000;
+  --chicago: #5b5b5b;
+  --green: #00ff00;
+  --mine-shaft: #323232;
+  --storm-dust: #656565;
+ 
+  --font-size-m: 52px;
+  --font-size-s: 51px;
+ 
+  --font-family-nanum_gothic: "Nanum Gothic", Helvetica;
+}
+.nanumgothic-extra-bold-green-52px {
+  color: var(--green);
+  font-family: var(--font-family-nanum_gothic);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 800;
+}
