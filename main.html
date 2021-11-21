@@ -8,6 +8,8 @@
     <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
     <link rel="stylesheet" type="text/css" href="css/globals.css" />
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src='/socket.io/socket.io.js'></script>
+
 </head>
     <body style="background-color: #323232;">
         <div class="container-center-horizontal">
@@ -59,7 +61,7 @@
                         </div>
                     </div>
                     <!-- RIGHT -->
-                    <% if (isPlaying == true) { %>
+                    <!-- <% if (isPlaying == true) { %> -->
                     <div id="pop1">
                         <div class="popup"></div>
                         <div class="popup-text">
@@ -68,9 +70,9 @@
                             <img class="p1-t-3" src="img/p1-t-3.png"/>
                         </div>
                     </div>
-                    <% } %>
+                    <!-- <% } %> -->
                     <!-- WRONG -->
-                    <% if( isPlaying == false ) { %>
+                    <!-- <% if( isPlaying == false ) { %> -->
                     <div id="pop2">
                         <div class="popup2"></div>
                         <div class="popup-text2">
@@ -83,45 +85,116 @@
                             </div>
                         </div>
                     </div>
-                    <% } %>
+                    <!-- <% } %> -->
 
                 </div>
             </div>
         </div>
         <script>
-          $("#button1").click(function(){
-            $.ajax({
-              url: '/post',
-              async: true,
-              type: 'POST',
-              data: {
-                number: "1"
-              },
-              dataType: 'json'
-            });
+
+        document.getElementById("pop1").style.display ='none';
+        document.getElementById("pop2").style.display ='none';
+
+        const btn1 =document.querySelector(".x1 .button2");
+        const obj1 =document.querySelector(".x1 .b2-bg1-1");
+
+        const btn2 =document.querySelector(".x1 .button1");
+        const obj2 =document.querySelector(".x1 .b1-bg1-1");
+
+        const btn3 =document.querySelector(".x1 .button3");
+        const obj3 =document.querySelector(".x1 .b3-bg1-1");
+
+        btn1.addEventListener("mouseover", function ()
+        {
+            obj1.style.backgroundColor = "grey";
+        });
+        btn1.addEventListener("mouseout", function ()
+        {
+            obj1.style.backgroundColor = "black";
+        });
+
+        btn2.addEventListener("mouseover", function ()
+        {
+            obj2.style.backgroundColor = "grey";
+        });
+        btn2.addEventListener("mouseout", function ()
+        {
+            obj2.style.backgroundColor = "black";
+        });
+
+        btn3.addEventListener("mouseover", function ()
+        {
+            obj3.style.backgroundColor = "grey";
+        });
+        btn3.addEventListener("mouseout", function ()
+        {
+            obj3.style.backgroundColor = "black";
+        });
+
+          var socket = io();
+          $('#button1').click(function()
+          {
+            socket.emit('choose', 1);
           });
-          $("#button2").click(function(){
-            $.ajax({
-              url: '/post',
-              async: true,
-              type: 'POST',
-              data: {
-                number: "2"
-              },
-              dataType: 'json'
-            });
+          $('#button2').click(function()
+          {
+            socket.emit('choose', 2);
           });
-          $("#button3").click(function(){
-            $.ajax({
-              url: '/post',
-              async: true,
-              type: 'POST',
-              data: {
-                number: "3"
-              },
-              dataType: 'json'
-            });
+          $('#button3').click(function()
+          {
+            socket.emit('choose', 3);
+          })
+
+          socket.on('result', function(r){
+            if(r == true)
+            {
+              document.getElementById("pop1").style.display ='block';
+              setTimeout(function(){
+                  document.getElementById("pop1").style.display ='none';
+              }, 2500);
+            }
+            if (r == false)
+            {
+              document.getElementById("pop2").style.display ='block';
+              setTimeout(function(){
+                  document.getElementById("pop2").style.display ='none';
+              }, 2500);
+            }
           });
+
+          // $("#button1").click(function(){
+          //   $.ajax({
+          //     url: '/post',
+          //     async: true,
+          //     type: 'POST',
+          //     data: {
+          //       number: "1"
+          //     },
+          //     dataType: 'json'
+          //   });
+          // });
+          // $("#button2").click(function(){
+          //   $.ajax({
+          //     url: '/post',
+          //     async: true,
+          //     type: 'POST',
+          //     data: {
+          //       number: "2"
+          //     },
+          //     dataType: 'json'
+          //   });
+          // });
+          // $("#button3").click(function(){
+          //   $.ajax({
+          //     url: '/post',
+          //     async: true,
+          //     type: 'POST',
+          //     data: {
+          //       number: "3"
+          //     },
+          //     dataType: 'json'
+          //   });
+          // });
         </script>
     </body>
 </html>

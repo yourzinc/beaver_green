@@ -1,37 +1,62 @@
-const express = require('express');
-const ejs = require('ejs');
-const bodyParser = require('body-parser');
-const app = express();
+var express = require('express');
+var app = express();
+var http = require('http').Server(app);
+var io = require('socket.io')(http);
 
-let isPlayingNumber = 1;
-
-app.set('view engine','ejs');
-app.use(bodyParser.urlencoded({extended: false}));
-app.use(bodyParser.json());
 
 app.use(express.static(__dirname + '/public'));
 
+var isPlayingNumber = 1;
+
 app.get('/', function(req,res){
-    res.render('main', {choice:0});
+    res.sendFile(__dirname + '/main.html');
   });
 
-app.post("/post", function(req, res){
-  if(req.body.number == isPlayingNumber)
-  {
-    res.json({isPlaying : true});
-    console.log(true);
-  }
-  else {
-    res.json({isPlaying : false});
-  }
-
-
-})
-
-var port = 3000;
-app.listen(port, function(){
-  console.log('server on! http://localhost:'+port);
+app.get('/video', function(req, res){
+    res.sendFile(__dirname + '/video.html');
 });
+
+io.on('connection', function(socket){
+  console.log('user connected: ', socket.id);
+
+  socket.on('disconnect', function(){
+    console.log('user disconnected: ', socket.id);
+  });
+
+  socket.on('choose', function(num){
+    console.log('user chose one');
+    if(num == isPlayingNumber)
+    {
+      console.log(num, ' is right');
+      io.emit('result', true);
+    }
+    else {
+      console.log(num, ' is false');
+      io.emit('result', false);
+    }
+  });
+});
+
+// app.post("/post", function(req, res){
+//   if(req.body.number == isPlayingNumber)
+//   {
+//     res.json({isPlaying : true});
+//     console.log(true);
+//   }
+//   else {
+//     res.json({isPlaying : false});
+//   }
+// })
+
+http.listen(3000, function()
+{
+  console.log('server on!');
+});
+
+// var port = 3000;
+// app.listen(port, function(){
+//   console.log('server on!');
+// });
 
 /*
 
