@@ -1,16 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BEAVER_GREEN</title>
   </head>
   <body>
-      <div class='container'>
-        <video src="./video/video1.MP4" width="100%" height="auto" autoplay loop muted controls>
-          video1
-        </video>
-      </div>
+    <video id="videoPlayer" width="650" controls muted="muted" autoplay>
+      <source src="/video" type="video/mp4" />
     </video>
-    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
   </body>
 </html>

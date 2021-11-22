@@ -1,8 +1,8 @@
-var express = require('express');
-var app = express();
-var http = require('http').Server(app);
-var io = require('socket.io')(http);
-
+const express = require('express');
+const app = express();
+const http = require('http').Server(app);
+const io = require('socket.io')(http);
+const fs = require('fs');
 
 app.use(express.static(__dirname + '/public'));
 
@@ -13,8 +13,9 @@ app.get('/', function(req,res){
   });
 
 app.get('/video', function(req, res){
-    res.sendFile(__dirname + '/views/video.html');
+    res.sendFile(__dirname + '/video.html');
 });
+
 
 io.on('connection', function(socket){
   console.log('user connected: ', socket.id);
@@ -33,6 +34,7 @@ io.on('connection', function(socket){
     else {
       console.log(num, ' is false');
       io.emit('result', false);
+
     }
   });
 });
