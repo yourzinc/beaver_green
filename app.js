@@ -13,7 +13,7 @@ app.get('/', function(req,res){
   });
 
 app.get('/video', function(req, res){
-    res.sendFile(__dirname + '/video.html');
+    res.sendFile(__dirname + '/views/video.html');
 });
 
 io.on('connection', function(socket){
