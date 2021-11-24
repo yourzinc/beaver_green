@@ -17,6 +17,13 @@ app.get('/video', function(req, res){
     res.sendFile(__dirname + '/public/video.html');
 });
 
+app.get('/video/1.mp4', function(req, res){
+    res.sendFile(__dirname + '/public/1.MP4');
+});
+
+app.get('/video/2.mp4', function(req, res){
+    res.sendFile(__dirname + '/public/2.MP4');
+});
 
 io.on('connection', function(socket){
   console.log('user connected: ', socket.id);
@@ -30,7 +37,6 @@ io.on('connection', function(socket){
     if(num == isPlayingNumber)
     {
       io.emit('result', true);
-
     }
     else {
       console.log(num, ' is false');
