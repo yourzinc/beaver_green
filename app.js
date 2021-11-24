@@ -8,12 +8,13 @@ app.use(express.static(__dirname + '/public'));
 
 var isPlayingNumber = 1;
 
+
 app.get('/', function(req,res){
     res.sendFile(__dirname + '/main.html');
-  });
+});
 
 app.get('/video', function(req, res){
-    res.sendFile(__dirname + '/video.html');
+    res.sendFile(__dirname + '/public/video.html');
 });
 
 
@@ -28,13 +29,15 @@ io.on('connection', function(socket){
     console.log('user chose one');
     if(num == isPlayingNumber)
     {
-      console.log(num, ' is right');
       io.emit('result', true);
+
     }
     else {
       console.log(num, ' is false');
       io.emit('result', false);
-
+      isPlayingNumber = num;
+      console.log('change -', num);
+      io.emit('video_choice', isPlayingNumber);
     }
   });
 });
