@@ -8,7 +8,7 @@
     <script src='/socket.io/socket.io.js'></script>
   </head>
   <body>
-    <video id= "v" src="2.mp4" id="videoPlayer" width="650" controls autoplay muted="true" loop></video>
+    <video id= "v" src="present.mp4" id="videoPlayer" width="650" controls autoplay muted="true" loop></video>
     <div id="select"></div>
   </body>
   <script>
@@ -17,13 +17,25 @@
     {
       if (num == 1)
       {
-        var videoFile = '1.mp4'
+        // present - ji hyeong
+
+        var videoFile = 'present.mp4'
         $('#v').attr('src', videoFile);
         $('#v').load();
       }
       else if (num == 2)
       {
-        var videoFile = '2.mp4'
+        // future -kyu bin
+
+        var videoFile = 'future.mp4'
+        $('#v').attr('src', videoFile);
+        $('#v').load();
+      }
+      else if (num == 3)
+      {
+        // past - lynn
+
+        var videoFile = 'past.mp4'
         $('#v').attr('src', videoFile);
         $('#v').load();
       }
@@ -33,17 +45,18 @@
     socket.on('video_choice', function(r){
       if(r == 1)
       {
-        document.getElementById("select").innerHTML ='1';
+        //document.getElementById("select").innerHTML ='1';
         video_change(1);
       }
       else if(r == 2)
       {
-        document.getElementById("select").innerHTML ='2';
+        //document.getElementById("select").innerHTML ='2';
         video_change(2);
       }
       else if(r == 3)
       {
-        document.getElementById("select").innerHTML ='3';
+        //document.getElementById("select").innerHTML ='3';
+        video_change(3);
       }
     });
   </script>

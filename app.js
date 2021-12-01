@@ -17,12 +17,16 @@ app.get('/video', function(req, res){
     res.sendFile(__dirname + '/public/video.html');
 });
 
-app.get('/video/1.mp4', function(req, res){
-    res.sendFile(__dirname + '/public/1.MP4');
+app.get('/video/past.mp4', function(req, res){
+    res.sendFile(__dirname + '/public/past.MP4');
 });
 
-app.get('/video/2.mp4', function(req, res){
-    res.sendFile(__dirname + '/public/2.MP4');
+app.get('/video/present.mp4', function(req, res){
+    res.sendFile(__dirname + '/public/present.MP4');
+});
+
+app.get('/video/future.mp4', function(req, res){
+    res.sendFile(__dirname + '/public/future.MP4');
 });
 
 io.on('connection', function(socket){

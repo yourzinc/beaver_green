@@ -134,14 +134,17 @@
           var socket = io();
           $('#button1').click(function()
           {
+            // present
             socket.emit('choose', 1);
           });
           $('#button2').click(function()
           {
+            // future
             socket.emit('choose', 2);
           });
           $('#button3').click(function()
           {
+            // past
             socket.emit('choose', 3);
           })
 
