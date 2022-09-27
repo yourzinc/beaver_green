@@ -8,7 +8,6 @@ app.use(express.static(__dirname + '/public'));
 
 var isPlayingNumber = 1;
 
-
 app.get('/', function(req,res){
     res.sendFile(__dirname + '/main.html');
 });
@@ -52,41 +51,7 @@ io.on('connection', function(socket){
   });
 });
 
-// app.post("/post", function(req, res){
-//   if(req.body.number == isPlayingNumber)
-//   {
-//     res.json({isPlaying : true});
-//     console.log(true);
-//   }
-//   else {
-//     res.json({isPlaying : false});
-//   }
-// })
-
 http.listen(3000, function()
 {
   console.log('server on!');
 });
-
-// var port = 3000;
-// app.listen(port, function(){
-//   console.log('server on!');
-// });
-
-/*
-
-var http = require('http');
-var fs = require('fs');
-
-var app = http.createServer(function(request,response){
-    var url = request.url;
-    if(request.url == '/'){
-        url = '/main.html';
-    }
-    response.writeHead(200);
-    response.end(fs.readFileSync(__dirname + url));
-});
-
-app.listen(3000);
-
-*/

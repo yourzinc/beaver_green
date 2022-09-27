@@ -14,6 +14,7 @@ btn1.addEventListener("mouseover", function ()
 {
     obj1.style.backgroundColor = "grey";
 });
+
 btn1.addEventListener("mouseout", function ()
 {
     obj1.style.backgroundColor = "black";
@@ -23,6 +24,7 @@ btn2.addEventListener("mouseover", function ()
 {
     obj2.style.backgroundColor = "grey";
 });
+
 btn2.addEventListener("mouseout", function ()
 {
     obj2.style.backgroundColor = "black";
@@ -32,6 +34,7 @@ btn3.addEventListener("mouseover", function ()
 {
     obj3.style.backgroundColor = "grey";
 });
+
 btn3.addEventListener("mouseout", function ()
 {
     obj3.style.backgroundColor = "black";
@@ -46,8 +49,6 @@ btn1.addEventListener("click",function()
         document.getElementById("pop1").style.display ='none';
     }, 2500);
 
-    
-    
     // ELSE
     // document.getElementById("pop2").style.display ='block';
 });
@@ -61,7 +62,6 @@ btn2.addEventListener("click",function()
     document.getElementById("pop1").style.display ='none';
     }, 2500);
 
-
     // ELSE
     // document.getElementById("pop2").style.display ='block';
 });
@@ -74,7 +74,6 @@ btn3.addEventListener("click", function()
     setTimeout(function(){
         document.getElementById("pop1").style.display ='none';
     }, 2500);
-
 
     // ELSE
     // document.getElementById("pop2").style.display ='block';
